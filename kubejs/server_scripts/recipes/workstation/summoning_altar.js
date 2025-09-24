@@ -87,6 +87,12 @@ ServerEvents.recipes(event => {
             '4x ae2:fluix_crystal'
         ]
     )
+    // Promo Buddycards
+    itemRitual('buddycards:buddycard_holiday1', 'buddycards:luminis_panel', ['4x minecraft:black_dye', 'forbidden_arcanus:rune', '3x #buddycards:buddycards_base', '3x #buddycards:buddycards_nether', '3x #buddycards:buddycards_end'])
+    itemRitual('buddycards:buddycard_holiday2', 'buddycards:luminis_panel', ['2x minecraft:jack_o_lantern', '4x supplementaries:candy', '3x #buddycards:buddycards_base', '3x #buddycards:buddycards_nether', '3x #buddycards:buddycards_end'])
+    itemRitual('buddycards:buddycard_holiday3', 'buddycards:luminis_panel', ['2x unusualend:wandering_pearl', '2x unusualend:enderling_scrap', '3x #buddycards:buddycards_base', '3x #buddycards:buddycards_nether', '3x #buddycards:buddycards_end'])
+    itemRitual('buddycards:buddycard_holiday4', 'buddycards:luminis_panel', ['minecraft:coal_block', 'aether:candy_cane', '3x #buddycards:buddycards_base', '3x #buddycards:buddycards_nether', '3x #buddycards:buddycards_end'])
+    itemRitual('buddycards:buddycard_holiday5', 'buddycards:luminis_panel', ['#supplementaries:presents', 'aether:gingerbread_man', '3x #buddycards:buddycards_base', '3x #buddycards:buddycards_nether', '3x #buddycards:buddycards_end'])
     // Recipes for creating Gate Pearls
     event.remove({output: 'gateways:gate_pearl'})
     itemRitual(Item.of('gateways:gate_pearl', 1, '{gateway:"gateways:basic/blaze"}'), 'irons_spellbooks:divine_pearl', ['2x minecraft:blaze_rod', '2x minecraft:blaze_powder'])
@@ -155,6 +161,7 @@ ServerEvents.recipes(event => {
     }
     // Create rituals for some generic mobs
     mobRitual('minecraft:wandering_trader', 'minecraft:emerald', ['minecraft:bell', '3x minecraft:emerald_block'])
+    mobRitual('buddycards:enderling', 'architects_palette:oracle_jelly', ['4x minecraft:amethyst_shard', '4x #forge:ender_pearls', '2x buddycards:luminis', '4x #buddycards:buddycards'])
     // Create rituals for all summonable mobs from Withered Beacon
     mobRitual('witherstormmod:sickened_bee', 'forbidden_arcanus:corrupt_soul', ['2x witherstormmod:withered_flesh', '4x minecraft:honeycomb', '2x minecraft:honey_bottle'])
     mobRitual('witherstormmod:sickened_skeleton', 'forbidden_arcanus:corrupt_soul', ['3x witherstormmod:withered_bone', '3x minecraft:bone'])
@@ -249,6 +256,7 @@ SummoningRituals.start(event => {
             event.server.runCommandSilent(`execute at ${playerId} run playsound minecraft:entity.wither.spawn hostile @a[distance=..50] ~ ~ ~ 100 0.75`)
             // Also grant the advancement for summoning the Wither Storm to all players within 50 blocks
             event.server.runCommandSilent(`execute at ${playerId} run advancement grant @a[distance=..50] only witherstormmod:main/root`)
+            //console.log(`execute at ${playerId} run advancement grant @a[distance=..50] only witherstormmod:main/root`)
             event.server.runCommandSilent(`execute at ${playerId} run advancement grant @a[distance=..50] only witherstormmod:main/summon_wither_storm`)
         }, 10000)
     }

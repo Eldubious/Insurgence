@@ -17,7 +17,6 @@
 		{ item: "cataclysm:ancient_metal_block" }
 		{ item: "cataclysm:cursium_block" }
 		{ item: "alexscaves:tremorzilla_egg" }
-		{ item: "psi:cad_assembly_creative" }
 	]
 	title: "{ftbquests.loot_table.2858845350081559365.title}"
 }

@@ -448,6 +448,7 @@
 				"1EEF3931175A59C5"
 				"308D91058E1BDC64"
 				"3CBE270096A86886"
+				"5FCD8073DF77A7D9"
 			]
 			hide_dependency_lines: true
 			icon: "galosphere:cured_membrane"
@@ -525,6 +526,7 @@
 				"72EA68C7E8D90054"
 				"178604735A01EC48"
 				"14ADA15377DD1A89"
+				"0F65F09A6BBC3679"
 			]
 			hide_dependency_lines: true
 			icon: "dreadsteel:dreadsteel_ingot"
@@ -623,7 +625,7 @@
 			}]
 			title: "{ftbquests.chapter.chapter_iii_the_aftermath.quest1490024431594838665.title}"
 			x: -7.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["37FED10E63EB6471"]
@@ -647,7 +649,53 @@
 			}]
 			title: "{ftbquests.chapter.chapter_iii_the_aftermath.quest4376978771331803270.title}"
 			x: 7.0d
-			y: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37FED10E63EB6471"]
+			id: "5FCD8073DF77A7D9"
+			rewards: [{
+				id: "1C7A4FB1C8561A6B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0AD889E7AE5B8ABA"
+				item: "buddycards:creative_grading_sleeve"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12C992A4682DBF88"]
+			id: "0F65F09A6BBC3679"
+			tasks: [{
+				id: "2D3F5470BD0F5F09"
+				item: "psi:cad_assembly_creative"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"37FED10E63EB6471"
+				"5296E3A72DDECB8F"
+				"12C992A4682DBF88"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4017455585274AF9"
+			size: 1.25d
+			subtitle: "&7&oUwU"
+			tasks: [{
+				id: "7FE8BF2B7A7E0C5C"
+				item: "estrogen:uwu"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.8d
 		}
 	]
 	title: "{ftbquests.chapter.chapter_iii_the_aftermath.title}"

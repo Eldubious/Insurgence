@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "regions_unexplored:prismachasm",
+    "regions_unexplored:redstone_caves",
+    "kubejs:dragon_hollow",
+    "kubejs:asurine_caves",
+    "kubejs:crimson_caves",
+    "kubejs:mossy_fields"
+  ],
+  "features": "kubejs:ore_buddycards_luminis",
+  "step": "vegetal_decoration"
+}

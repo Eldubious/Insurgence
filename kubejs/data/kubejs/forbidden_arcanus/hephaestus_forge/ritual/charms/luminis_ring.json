@@ -1,0 +1,73 @@
+{
+    "additional_requirements": {
+        "enhancers": [
+            "forbidden_arcanus:crescent_moon"
+        ]
+    },
+    "essences": {
+        "aureal": 0,
+        "blood": 750,
+        "experience": 300,
+        "souls": 0
+    },
+    "inputs": [
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "buddycards:crimson_luminis"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "galosphere:lumiere_shard"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "buddycards:crimson_luminis"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "galosphere:lumiere_shard"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "buddycards:crimson_luminis"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "galosphere:lumiere_shard"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "buddycards:crimson_luminis"
+            }
+        },
+        {
+            "amount": 1,
+            "ingredient": {
+                "item": "galosphere:lumiere_shard"
+            }
+        }
+    ],
+    "main_ingredient": {
+        "item": "ars_nouveau:ring_of_potential"
+    },
+    "result": {
+        "type": "forbidden_arcanus:create_item",
+        "result_item": {
+            "Count": 1,
+            "id": "buddycards:luminis_ring"
+        }
+    }
+}

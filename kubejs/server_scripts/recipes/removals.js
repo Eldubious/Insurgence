@@ -60,6 +60,9 @@ ServerEvents.recipes(event => {
     event.remove({type: 'minecraft:crafting_shaped', input: 'ae2:spatial_cell_component_16'})
     event.remove({type: 'minecraft:crafting_shaped', input: 'ae2:spatial_cell_component_128', not: {id: 'ae2:network/blocks/spatial_anchor'}})
     event.remove({id: 'ae2:charger/charged_certus_quartz_crystal'})
+    event.remove([{id: 'buddycards:playmat_base'}, {id: 'buddycards:playmat_nether'}, {id: 'buddycards:playmat_end'}])
+    event.remove([{id: 'buddycards:battle_sleeves_bulk'}, {id: 'buddycards:battle_sleeves'}])
+    event.remove({id: 'buddycards:kinetic_chamber'})
     
 
     /*

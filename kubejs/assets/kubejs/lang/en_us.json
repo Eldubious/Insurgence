@@ -29,6 +29,8 @@
     "tooltip.kubejs.magma_ruby_ore": "§7§oFound near lava pools in the Nether.",
     "tooltip.kubejs.depths_ruby_ore": "§7§oFound in the Dragon's Hollow biome in the Depths.",
     "tooltip.kubejs.spawner_scrap": "§7§oObtained by breaking Spawner Blocks.",
+    "tooltip.kubejs.zylex_barter": "§7§oUsed to barter with the Enderling.",
+    "tooltip.kubejs.luminis_ore": "§7§oFound exclusively in the Depths.",
 
     "actionbar.kubejs.depths_portal_error": "§eYou can only use this portal in the Overworld or the Depths!",
     "actionbar.kubejs.dragonrealm_portal_error": "§eYou can only use this portal in the Overworld or the Dragonrealm!",

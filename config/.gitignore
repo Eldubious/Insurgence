@@ -130,6 +130,7 @@ boatiview-client.toml
 boxlib.json
 breezy-client.toml
 breezy-common.toml
+buddycards-common.toml
 cataclysm.toml
 charmofundying-server.toml
 chimes-client.toml
@@ -141,6 +142,7 @@ cofh_core-client.toml
 cofh_core-common.toml
 comforts-server.toml
 configured-client.toml
+configured-developer.toml
 constructionwand-client.toml
 copycats-client.toml
 copycats-common.toml

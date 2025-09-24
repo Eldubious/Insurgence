@@ -55,6 +55,13 @@ ServerEvents.recipes(event => {
     mixing('ae2:damaged_budding_quartz', [Fluid.water(1000), 'ae2:quartz_block', '2x ae2:charged_certus_quartz_crystal'], 1)
     mixing('ae2:chipped_budding_quartz', [Fluid.water(1000), 'ae2:damaged_budding_quartz', '2x ae2:charged_certus_quartz_crystal'], 1)
     mixing('ae2:flawed_budding_quartz', [Fluid.water(1000), 'ae2:chipped_budding_quartz', '2x ae2:charged_certus_quartz_crystal'], 1)
+    // Buddysteel Blend
+    event.remove({id: 'buddycards:buddysteel_blend'})
+    mixing('buddycards:buddysteel_blend', [Fluid.lava(250), '4x galosphere:silver_ingot', '2x minecraft:lapis_lazuli', '3x #buddycards:buddycards'], 1)
+    // Zylex
+    mixing('8x buddycards:zylex', [Fluid.lava(250), '2x ae2:fluix_crystal', '4x minecraft:amethyst_shard', '4x minecraft:popped_chorus_fruit'], 1)
+    // Void Zylex
+    mixing('8x buddycards:void_zylex', [Fluid.lava(500), 'ae2:singularity', 'quark:dragon_scale', '4x buddycards:zylex'], 1)
 
 
     // Paint Balls

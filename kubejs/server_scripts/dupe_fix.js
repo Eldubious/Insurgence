@@ -9,7 +9,7 @@ BlockEvents.rightClicked(event => {
     let offHand = player.offHandItem.id.toString()
     let dimensionId = event.level.dimension.toString()
 
-    console.log(`Main Hand: ${mainHand}, Off Hand: ${offHand}, Dimension: ${dimensionId}`)
+    //console.log(`Main Hand: ${mainHand}, Off Hand: ${offHand}, Dimension: ${dimensionId}`)
 
     if (dimensionId == 'dimdungeons:dungeon_dimension') {
 

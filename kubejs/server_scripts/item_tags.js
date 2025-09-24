@@ -181,9 +181,19 @@ ServerEvents.tags('item', event => {
 	removeFromTag('curios:hands', 'map_atlases:atlas')
 	const compass_items = ['minecraft:compass', 'minecraft:clock', 'minecraft:recovery_compass', 'supplementaries:altimeter', 'galosphere:barometer',
 		'map_atlases:atlas', 'breezy:gust_gauge', 'irons_spellbooks:wayward_compass', 'travelerscompass:travelerscompass', 'the_bumblezone:honey_compass',
-		'ae2:meteorite_compass', 'alexsmobs:pupfish_locator', 'alexsmobs:endolocator', 'alexsmobs:echolocator'
+		'ae2:meteorite_compass', 'alexsmobs:pupfish_locator', 'alexsmobs:endolocator', 'alexsmobs:echolocator', 'buddycards:buddysteel_power_meter',
+		'buddycards:luminis_power_meter', 'buddycards:zylex_power_meter', 'buddycards:charged_buddysteel_power_meter'
 	]
 	compass_items.forEach(element => addToTag('curios:compass', element))
+	// Add Medals to the charm slot
+	const medals = ['buddycards:zylex_medal_base', 'buddycards:zylex_medal_nether', 'buddycards:zylex_medal_end',
+        'buddycards:luminis_medal_base', 'buddycards:luminis_medal_nether', 'buddycards:luminis_medal_end', 'buddycards:buddysteel_medal_base', 'buddycards:buddysteel_medal_nether',
+        'buddycards:buddysteel_medal_end'
+	]
+	medals.forEach(element => {
+		removeFromTag('curios:medal', element)
+		addToTag('curios:charm', element)
+	})
 
 
 	/*

@@ -444,6 +444,126 @@ ServerEvents.recipes(event => {
             B: 'minecraft:compass'
         }
     )
+    // Creative Cad Assembly
+    event.shaped('psi:cad_assembly_creative',
+        [
+            'AAA',
+            'B  '
+        ],
+        {
+            A: 'dreadsteel:dreadsteel_ingot',
+            B: 'psi:psimetal'
+        }
+    )
+    // Creative Grading Sleeve
+    event.shaped('buddycards:creative_grading_sleeve',
+        [
+            'ABA',
+            'BCB',
+            'ABA'
+        ],
+        {
+           A: 'galosphere:cured_membrane',
+           B: 'minecraft:magenta_stained_glass_pane',
+           C: 'buddycards:void_zylex' 
+        }
+    )
+    // Luminis Deckbox
+    event.shaped('buddycards:luminis_deckbox',
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'buddycards:luminis_crystal',
+            B: 'buddycards:luminis'
+        }
+    )
+    // Zylex Deckbox
+    event.shaped('buddycards:zylex_deckbox',
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'buddycards:zylex_nugget',
+            B: 'buddycards:zylex'
+        }
+    )
+    // Luminis Power Meter
+    event.shaped('buddycards:luminis_power_meter',
+        [
+            ' A ',
+            'ABA',
+            ' A '
+        ],
+        {
+            A: 'buddycards:luminis',
+            B: 'buddycards:buddysteel_power_meter'
+        }
+    )
+    // Luminis Helmet
+    event.shaped('buddycards:luminis_helmet',
+        [
+            'AAA',
+            'A A'
+        ],
+        {
+            A: 'buddycards:crimson_luminis'
+        }
+    )
+    // Luminis Pickaxe
+    event.shaped('buddycards:luminis_pickaxe',
+        [
+            'AAA',
+            ' B ',
+            ' B '
+        ],
+        {
+            A: 'buddycards:crimson_luminis',
+            B: '#forge:rods/wooden'
+        }
+    )
+    // Charged Buddysteel Template
+    event.shaped('buddycards:charged_buddysteel_upgrade_smithing_template',
+        [
+            'AAA',
+            'ABA',
+            'AAA'
+        ],
+        {
+            A: 'buddycards:buddysteel_ingot',
+            B: 'experienceobelisk:primordial_assembly'
+        }
+    )
+    // Crimson Buddysteel Template
+    event.shaped('buddycards:crimson_buddysteel_upgrade_smithing_template',
+        [
+            'ACA',
+            'CBC',
+            'ACA'
+        ],
+        {
+            A: 'buddycards:luminis',
+            B: 'experienceobelisk:primordial_assembly',
+            C: 'buddycards:crimson_luminis'
+        }
+    )
+    // Void Buddysteel Template
+    event.shaped('buddycards:void_buddysteel_upgrade_smithing_template',
+        [
+            'ACA',
+            'CBC',
+            'ACA'
+        ],
+        {
+            A: 'buddycards:zylex',
+            B: 'experienceobelisk:primordial_assembly',
+            C: 'buddycards:void_zylex'
+        }
+    )
 
 
     

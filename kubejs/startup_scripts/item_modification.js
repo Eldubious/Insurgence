@@ -239,7 +239,12 @@ ItemEvents.modification(event => {
         'simplyswords:diamond_katana', 'simplyswords:diamond_sai', 'simplyswords:diamond_spear', 'simplyswords:diamond_glaive', 'simplyswords:diamond_warglaive',
         'simplyswords:diamond_cutlass', 'simplyswords:diamond_claymore', 'simplyswords:diamond_greathammer', 'simplyswords:diamond_greataxe', 'simplyswords:diamond_chakram',
         'simplyswords:diamond_scythe', 'simplyswords:diamond_halberd', 'dungeonnowloading:scuttle_statue', 'dungeonnowloading:ballista_golem_statue',
-        'dungeonnowloading:repulsor', 'dungeonnowloading:overcharged_redstone_block'
+        'dungeonnowloading:repulsor', 'dungeonnowloading:overcharged_redstone_block', 'buddycards:buddysteel_helmet', 'buddycards:buddysteel_chestplate',
+        'buddycards:buddysteel_leggings', 'buddycards:buddysteel_boots', 'buddycards:void_zylex_block', 'buddycards:void_zylex', 'buddycards:charged_buddysteel_sword',
+        'buddycards:charged_buddysteel_shovel', 'buddycards:charged_buddysteel_pickaxe', 'buddycards:charged_buddysteel_axe', 'buddycards:charged_buddysteel_hoe',
+        'buddycards:charged_buddysteel_upgrade_smithing_template', 'buddycards:charged_buddysteel_ingot', 'buddycards:charged_buddysteel_block',
+        'buddycards:crimson_luminis', 'buddycards:crimson_luminis_block', 'buddycards:zylex', 'buddycards:zylex_nugget', 'buddycards:zylex_block',
+        'buddycards:buddysteel_charger'
     ]
     uncommon_items.forEach(element => uncommon(element))
         
@@ -328,7 +333,10 @@ ItemEvents.modification(event => {
         'simplyswords:netherite_katana', 'simplyswords:netherite_sai', 'simplyswords:netherite_spear', 'simplyswords:netherite_glaive', 'simplyswords:netherite_warglaive',
         'simplyswords:netherite_cutlass', 'simplyswords:netherite_claymore', 'simplyswords:netherite_greathammer', 'simplyswords:netherite_greataxe', 'simplyswords:netherite_chakram',
         'simplyswords:netherite_scythe', 'simplyswords:netherite_halberd', 'dungeonnowloading:spawner_helmet', 'dungeonnowloading:spawner_chestplate', 'dungeonnowloading:spawner_leggings',
-        'dungeonnowloading:spawner_boots', 'dungeonnowloading:life_stealer', 'dungeonnowloading:spawner_sword'
+        'dungeonnowloading:spawner_boots', 'dungeonnowloading:life_stealer', 'dungeonnowloading:spawner_sword', 'buddycards:luminis_pickaxe', 'buddycards:luminis_ring',
+        'buddycards:zylex_hoe', 'buddycards:zylex_ring', 'buddycards:crimson_buddysteel_upgrade_smithing_template', 'buddycards:crimson_buddysteel_ingot', 'buddycards:crimson_buddysteel_block',
+        'buddycards:void_buddysteel_upgrade_smithing_template', 'buddycards:void_buddysteel_ingot', 'buddycards:void_buddysteel_block', 'buddycards:perfect_buddysteel_ingot',
+        'buddycards:perfect_buddysteel_block', 'buddycards:blank_buddysteel_medal', 'buddycards:blank_luminis_medal', 'buddycards:blank_zylex_medal'
     ]
     rare_items.forEach(element => rare(element))
 
@@ -386,7 +394,11 @@ ItemEvents.modification(event => {
         'iceandfire:dragonsteel_fire_block', 'iceandfire:dragonsteel_ice_block', 'iceandfire:dragonsteel_lightning_block', 'aether:obsidian_helmet', 'aether:obsidian_chestplate',
         'aether:obsidian_leggings', 'aether:obsidian_boots', 'aether:obsidian_gloves', 'experienceobelisk:fortuitous_amulet', 'experienceobelisk:memory_tablet',
         'cataclysm:storm_eye', 'psi:cad_assembly_creative', 'kubejs:withered_smithing_template', 'traveloptics:eye_of_nothingness', 'ae2:creative_energy_cell',
-        'aeinfinitybooster:dimension_card'
+        'aeinfinitybooster:dimension_card', 'buddycards:true_perfect_buddysteel_upgrade_smithing_template', 'buddycards:true_perfect_buddysteel_ingot',
+        'buddycards:true_perfect_buddysteel_block', 'buddycards:true_perfect_buddysteel_sword', 'buddycards:true_perfect_buddysteel_shovel', 'buddycards:true_perfect_buddysteel_pickaxe',
+        'buddycards:true_perfect_buddysteel_axe', 'buddycards:true_perfect_buddysteel_hoe', 'buddycards:zylex_medal_base', 'buddycards:zylex_medal_nether', 'buddycards:zylex_medal_end',
+        'buddycards:luminis_medal_base', 'buddycards:luminis_medal_nether', 'buddycards:luminis_medal_end', 'buddycards:buddysteel_medal_base', 'buddycards:buddysteel_medal_nether',
+        'buddycards:buddysteel_medal_end'
     ]
     epic_items.forEach(element => epic(element))
     

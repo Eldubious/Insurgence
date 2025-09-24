@@ -20,11 +20,14 @@ ServerEvents.tags('block', event => {
     removeFromTag('forge:ores', 'regions_unexplored:raw_redstone_block')
     removeFromTag('forge:ores/redstone', 'regions_unexplored:raw_redstone_block')
     const add_ores = ['forbidden_arcanus:runic_deepslate', 'forbidden_arcanus:runic_darkstone', 'forbidden_arcanus:runic_stone',
-		'forbidden_arcanus:deepslate_arcane_crystal_ore']
+		'forbidden_arcanus:deepslate_arcane_crystal_ore', 'buddycards:luminis_ore', 'buddycards:deepslate_luminis_ore',
+        'aether_redux:veridium_ore', 'call_of_yucutan:jade_ore', 'call_of_yucutan:deepslate_jade_ore'
+    ]
 	add_ores.forEach(element => addToTag('forge:ores', element))
 
-    const portals = ['kubejs:depths_portal', 'kubejs:dragon_portal', 'kubejs:inbetween_portal']
-    portals.forEach(element => {
+    const no_destroy = ['kubejs:depths_portal', 'kubejs:dragon_portal', 'kubejs:inbetween_portal',
+        'summoningrituals:altar', 'summoningrituals:indestructible_altar']
+    no_destroy.forEach(element => {
         // Prevent pickup and moving
         addToTag('witherstormmod:wither_storm_block_blacklist', element)
         addToTag('witherstormmod:wither_storm_small_cluster_blacklist', element)

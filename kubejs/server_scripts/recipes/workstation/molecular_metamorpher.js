@@ -116,4 +116,13 @@ ServerEvents.recipes(event => {
     metamorphosis('ae2:advanced_card', 2, 'ae2:calculation_processor', 1, 'create:iron_sheet', 1, 'mahoutsukai:powdered_diamond', 2, 55, 40)
     // Stained Scrap
     metamorphosis('dungeonsdelight:stained_scrap', 1, 'forbidden_arcanus:spawner_scrap', 1, 'forbidden_arcanus:soul', 1, 'forbidden_arcanus:dark_matter', 1, 55, 60)
+    // Buddycard Packs
+    metamorphosis('buddycards:buddycard_pack_base', 2, 'buddycards:buddysteel_ingot', 1, 'create:copper_nugget', 6, 'galosphere:silver_nugget', 6, 55, 20)
+    metamorphosis('buddycards:buddycard_pack_nether', 2, 'buddycards:charged_buddysteel_ingot', 1, 'minecraft:gold_nugget', 6, 'buddycards:crimson_luminis', 3, 160, 20)
+    metamorphosis('buddycards:buddycard_pack_end', 2, 'buddycards:charged_buddysteel_ingot', 1, 'minecraft:amethyst_shard', 6, 'buddycards:void_zylex', 3, 315, 20)
+    metamorphosis('buddycards:buddycard_booster_box_base', 1, 'buddycards:charged_buddysteel_ingot', 3, 'create:copper_nugget', 18, 'galosphere:silver_nugget', 18, 55, 60)
+    metamorphosis('buddycards:buddycard_booster_box_nether', 1, 'buddycards:charged_buddysteel_ingot', 3, 'minecraft:gold_nugget', 18, 'buddycards:crimson_luminis', 9, 160, 60)
+    metamorphosis('buddycards:buddycard_booster_box_end', 1, 'buddycards:charged_buddysteel_ingot', 3, 'minecraft:amethyst_shard', 18, 'buddycards:void_zylex', 9, 315, 60)
+    
+
 })

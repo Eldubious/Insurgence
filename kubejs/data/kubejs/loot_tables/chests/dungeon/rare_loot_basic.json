@@ -7,6 +7,21 @@
             "entries": [
                 {
                     "type": "minecraft:item",
+                    "name": "buddycards:buddycard_pack_mystery",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 90
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
                     "name": "gamediscs:game_disc_blocktris",
                     "weight": 1
                 },

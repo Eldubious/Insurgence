@@ -211,6 +211,19 @@ ServerEvents.recipes(event => {
         ],
         800
     )
+    // Crimson Luminis & Block
+    imbuement('buddycards:crimson_luminis', 'buddycards:luminis',
+        [
+            '#forge:gems/ruby', 'buddycards:luminis_block', 'ars_nouveau:fire_essence'
+        ],
+        250
+    )
+    imbuement('buddycards:crimson_luminis_block', 'buddycards:luminis_block',
+        [
+            '#forge:gems/ruby', 'buddycards:luminis_block', 'ars_nouveau:fire_essence'
+        ],
+        2000
+    )
 
     /*
         Architects Palette decoration blocks made originally from warping
