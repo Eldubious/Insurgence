@@ -1,4 +1,4 @@
-Version 1.4
+Version 1.4.0
     Additions:
     - Added new tips for:
         - Obtaining bonus health from cooking
