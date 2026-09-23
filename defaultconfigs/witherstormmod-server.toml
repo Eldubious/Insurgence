@@ -240,7 +240,7 @@
 		#Specifies a modifier value of the evolution rate attribute. The higher the value, the longer it takes for the Wither Storm to make a complete evolution (from phases 0 to 7), and vice versa. Cannot be lower than 0.
 		#Default: 1.0
 		#Range: 0.01 ~ 32.0
-		evolutionAttributeModifier = 0.15
+		evolutionAttributeModifier = 0.05
 
 	#Performance
 	[server.performance]

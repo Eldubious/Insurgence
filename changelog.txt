@@ -1,3 +1,20 @@
+Version 1.4
+    Additions:
+    - Added new tips for:
+        - Obtaining bonus health from cooking
+        - Enemies getting stronger over time
+        - Buddycards
+
+    Changes:
+    - Increased the Wither Storm's evolution speed significantly
+    - Changed the crafting recipes for the following Ars Nouveau glyphs:
+        - 
+    - Nerfed several Iron's Spells and Spellbooks spells
+    - Made Piglin's begin spawning with netherite equipment after 30 days of playtime
+
+    Fixes:
+    - Crafting endgame items with the Withered Beacon no longer destroys the beacon
+
 Version 1.3.1
     Additions:
         - Added Mod:

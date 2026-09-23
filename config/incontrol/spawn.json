@@ -56,6 +56,7 @@
             "minecraft:zombified_piglin"
         ],
         "when": "onjoin",
+        "maxdaycount": 30,
         "helditem": [
             "4=minecraft:golden_sword",
             "4=minecraft:crossbow",
@@ -73,6 +74,33 @@
             "1=simplyswords:gold_greathammer",
             "1=simplyswords:gold_scythe",
             "1=simplyswords:gold_halberd"
+        ],
+        "result": "allow"
+    },
+    {
+        "mob": [
+            "minecraft:piglin",
+            "minecraft:zombified_piglin"
+        ],
+        "when": "onjoin",
+        "mindaycount": 30,
+        "helditem": [
+            "4=minecraft:netherite_sword",
+            "4=minecraft:crossbow",
+            "2=simplyswords:netherite_longsword",
+            "2=simplyswords:netherite_rapier",
+            "2=simplyswords:netherite_spear",
+            "2=simplyswords:netherite_cutlass",
+            "2=farmersdelight:netherite_knife",
+            "1=simplyswords:netherite_katana",
+            "1=simplyswords:netherite_sai",
+            "1=simplyswords:netherite_glaive",
+            "1=simplyswords:netherite_warglaive",
+            "1=simplyswords:netherite_claymore",
+            "1=simplyswords:netherite_greataxe",
+            "1=simplyswords:netherite_greathammer",
+            "1=simplyswords:netherite_scythe",
+            "1=simplyswords:netherite_halberd"
         ],
         "result": "allow"
     }
