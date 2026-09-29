@@ -11,6 +11,7 @@ Version 1.4.0
         - 
     - Nerfed several Iron's Spells and Spellbooks spells
     - Made Piglin's begin spawning with netherite equipment after 30 days of playtime
+    - Hephaestus forge essence inputs now display how much essence they grant in their tooltip
 
     Fixes:
     - Crafting endgame items with the Withered Beacon no longer destroys the beacon

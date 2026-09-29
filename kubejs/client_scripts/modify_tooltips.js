@@ -32,6 +32,18 @@ ItemEvents.tooltip(event => {
     event.add('buddycards:void_zylex', Component.translate('tooltip.kubejs.zylex_barter'))
     event.add('buddycards:luminis_ore', Component.translate('tooltip.kubejs.luminis_ore'))
     event.add('buddycards:deepslate_luminis_ore', Component.translate('tooltip.kubejs.luminis_ore'))
+    event.add('irons_spellbooks:blood_vial', Component.translate('tooltip.kubejs.heph_forge_750_blood'))
+    event.add('twilightforest:fiery_blood', Component.translate('tooltip.kubejs.heph_forge_1000_blood'))
+    event.add('twilightforest:fiery_tears', Component.translate('tooltip.kubejs.heph_forge_1000_blood'))
+    event.add('create:experience_block', Component.translate('tooltip.kubejs.heph_forge_135_xp'))
+    event.add('create:experience_nugget', Component.translate('tooltip.kubejs.heph_forge_15_xp'))
+    event.add('dungeonnowloading:great_experience_bottle', Component.translate('tooltip.kubejs.heph_forge_100_xp'))
+    event.add('quark:soul_bead', Component.translate('tooltip.kubejs.heph_forge_10_souls'))
+    event.add('dungeonnowloading:soul_cloth', Component.translate('tooltip.kubejs.heph_forge_12_souls'))
+    event.add('dungeonnowloading:soul_silk', Component.translate('tooltip.kubejs.heph_forge_2_souls'))
+    event.add('endrem:undead_soul', Component.translate('tooltip.kubejs.heph_forge_10_souls'))
+    event.add('minecraft:phantom_membrane', Component.translate('tooltip.kubejs.heph_forge_2_souls'))
+
     
     // Mark unused items
     const unused_items = ['aquaculture:fish_bones', 'miners_delight:moss', 'oceanic_delight:takoyaki', 'samurai_dynasty:ruby', 'simplyswords:decaying_relic',
