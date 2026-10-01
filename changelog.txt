@@ -14,7 +14,6 @@ Version 1.4.0
         - 
     - Nerfed several Iron's Spells and Spellbooks spells
     - Made more mobs evolve over time:
-        - Mutant monsters only can spawn after 10 days of playtime
         - Made Piglin's begin spawning with netherite equipment after 30 days
     - Hephaestus forge essence inputs now display how much essence they grant in their tooltip
 

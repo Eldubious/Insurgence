@@ -103,5 +103,27 @@
             "1=simplyswords:netherite_halberd"
         ],
         "result": "allow"
+    },
+    {
+        "mob": [
+            "minecraft:piglin_brute"
+        ],
+        "when": "onjoin",
+        "maxdaycount": 30,
+        "helditem": [
+            "1=simplyswords:gold_greataxe",
+            "9=minecraft:golden_axe"
+        ]
+    },
+    {
+        "mob": [
+            "minecraft:piglin_brute"
+        ],
+        "when": "onjoin",
+        "mindaycount": 30,
+        "helditem": [
+            "1=simplyswords:netherite_greataxe",
+            "9=minecraft:netherite_axe"
+        ]
     }
 ]
