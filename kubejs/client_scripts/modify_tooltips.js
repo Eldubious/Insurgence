@@ -43,6 +43,15 @@ ItemEvents.tooltip(event => {
     event.add('dungeonnowloading:soul_silk', Component.translate('tooltip.kubejs.heph_forge_2_souls'))
     event.add('endrem:undead_soul', Component.translate('tooltip.kubejs.heph_forge_10_souls'))
     event.add('minecraft:phantom_membrane', Component.translate('tooltip.kubejs.heph_forge_2_souls'))
+    event.add('forbidden_arcanus:xpetrified_orb', Component.translate('tooltip.kubejs.heph_forge_91_xp'))
+    event.add('forbidden_arcanus:aureal_bottle', Component.translate('tooltip.kubejs.heph_forge_35_aureal'))
+    event.add('forbidden_arcanus:splash_aureal_bottle', Component.translate('tooltip.kubejs.heph_forge_30_aureal'))
+    event.add('minecraft:experience_bottle', Component.translate('tooltip.kubejs.heph_forge_15_xp'))
+    event.add('forbidden_arcanus:soul', Component.translate('tooltip.kubejs.soul_obtainment'))
+    event.add('forbidden_arcanus:soul', Component.translate('tooltip.kubejs.heph_forge_1_soul'))
+    event.add('forbidden_arcanus:corrupt_soul', Component.translate('tooltip.kubejs.heph_forge_1_soul'))
+    event.add('forbidden_arcanus:enchanted_soul', Component.translate('tooltip.kubejs.heph_forge_10_souls'))
+    event.add('forbidden_arcanus:test_tube', Component.translate('tooltip.kubejs.heph_forge_blood_any'))
 
     
     // Mark unused items
